@@ -2,14 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+       table{
+        width: 100%;
+        border: transparent;
+        border-collapse: unset;
+        border-radius: 10%;
+
+       }
+       th,tr,td{
+        border:transparent;
+       }
+      #head{
+        color: white;
+        background-color: rgb(56, 115, 187);
+        border-radius: 50%;
+      }
+      #head2{
+        background-color: rgb(228, 226, 226);
+      }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <table>
+        <thead>
+            <tr id="head">
+                <th>Name</th>
+                <th>Games</th>
+                <th>Played</th>
+                <th>Win</th>
+                <th>Loss</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Akash</td>
+                <td>BGMI</td>
+                <td>5</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr id="head2">
+                <td>Ritik</td>
+                <td>Velorent</td>
+                <td>6</td>
+                <td>4</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Monu</td>
+                <td>Ludo</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
